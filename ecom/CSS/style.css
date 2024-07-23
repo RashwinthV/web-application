@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;/*color of the font in header*/
+    text-align: left;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+    width: 100%
+}
+
+ul{
+    list-style-type: none;/*to remove and add bullets*/
+}
+ul li{/*to open ul and then access li tag*/
+    display: inline;
+    margin-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 20px;
+    font-size: 30px;
+    
+}
+/* '#'-to call id 
+   '.'-to call class  */
+header button{
+    background-color:gray;
+    background: none;
+    border: none;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif ;
+}
+header button:hover{
+    background-color:grey;
+}
+
+#products{
+    display: flex;
+    justify-self:space-around;
+    margin: 20px;
+    align-items:center;
+}
+.pro{
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 60px;
+    text-align: center;
+
+}
+.pro button{
+    background-color: black;
+    
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    
+}
+.pro button a{
+    text-decoration: none;
+    color: white;
+}
+.pro button:hover{
+    background-color: blue;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}

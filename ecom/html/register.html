@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../CSS/reg.css" />
+    <title>New User</title>
+    <script>
+      function pass() {
+        var p = document.getElementById("pass").value;
+        var cp = document.getElementById("pas").value;
+        if (p == "" || cp == "") {
+          alert("must fill all fields");
+        } else {
+          if (p == cp) {
+            window.location.href = "login.html";
+          } else {
+            alert("Enter the password correctly!");
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="form">
+      <div class="wel"></div>
+      <marquee ><div class="new">Register Now!!!</div></marquee>
+      <div class="inp">
+        <label>name <a>*</a></label>
+        <input type="text" id="name" placeholder="eg:xxxxx" required />
+        <label>email</label>
+        <input type="text"id="email"placeholder="eg: abc@gmail.com" required/>
+        <label>Password<a>*</a></label>
+        <input type="password" id="pass" />
+        <label> Confirm Password<a>*</a></label>
+        <input type="password" id="pas" />
+        <button onclick="pass()">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

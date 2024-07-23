@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="../CSS/signup.css">
+
+
+    <script>
+        function val()
+        {
+            var na=document.getElementById("name").value;
+            var pa=document.getElementById("pas").value;
+             
+            var up=document.getElementById("u").value;
+            var pp=document.getElementById("p").value;
+            if(up==""||pp==""){
+                alert("Please fill all the fields")
+            }
+            else{
+                if (na==up && pa==pp){
+                window.location.href="index.html";
+            }
+            else{
+                alert("Invalid username or password");
+            }
+            }
+        }
+    </script>
+    
+</head>
+<body>
+        <div class="win">
+            <div class="logo"></div>
+            <div class="bname">sign in </div>
+            <div class="inpu">
+                <label>Username</label>
+                <input type="text" name="u" id="u" required>
+                <label >password</label>
+                <input type="password"name="p"  id ="p" required>
+                <button type="button" onclick="val()">signup</button>
+                <p>Are you new here ?<a href="register.html">New user</a></p>
+            </div>
+        </div>
+</body>
+</html>

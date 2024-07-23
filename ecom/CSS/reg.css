@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    background-image:url("../images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;     
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 450px;
+    padding: 50px;
+    box-shadow: 10px 10px 15px ;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+
+}
+
+.wel{
+    background: url("../images/wel.jpeg");
+    height: 70px;
+    width: 225px;
+    margin:auto;
+
+}
+.inp label{
+    display:-webkit-flex;
+    margin-bottom: 9px;
+    text-align: left;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+.inp label a{
+    color: red;
+    margin-left: 5px;
+
+}
+label,button,input{
+    display: block;
+    margin-left: 30px;
+}
+.inp input{
+    border: none;
+    background-color: rgb(207, 246, 246);
+    border-radius: 20px;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+input:nth-of-type(4){
+    margin-bottom: 30px;
+}
+button{
+    width: 25%;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(246, 156, 40);
+    height: 40px;
+    margin-left: 40%;
+}
+button:hover{
+    font-weight: bold;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+.new{
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    
+}

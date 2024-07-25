@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    display: flex;
+  }
+  
+  nav {
+    padding: 1px;
+    height: 800px;
+    width: 239px;
+    color: white;
+    background-color: black;
+  }
+  
+  nav ul {
+    height: 600px;
+    width: 180%;
+  }
+  
+  nav ul li a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 180px;
+    border: none;
+    margin-left: 0%;
+  }
+  
+  nav ul li a:hover {
+    background-color: grey;
+    width: 180px;
+  }
+  
+  nav ul li {
+    font-size: larger;
+    margin-bottom: 40px;
+    list-style-type: none;
+  }
+  
+  .welcome {
+    margin-left: 600px;
+    
+    margin-top: 20px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .name{
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 23%;
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: 450px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 5px 5px 5px lightgrey;
+  }
+  
+  .name p {
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+.content{
+  margin-top: 60px;
+  border-style: solid;
+  display: block;
+  text-align: justify;
+  width: 400px;
+  height: 150px;
+  margin-left: 600px;
+  padding: 10px;
+  border-radius: 40px;
+  border-width: 2px;
+  
+}

@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url("../imag/bc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+  
+  padding: 0;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: right;
+  
+}
+.container{
+  display: flex;
+}
+ul{
+  padding: 0;
+}
+li{
+  display: inline-flex;
+  list-style-type: none;
+  text-align: right;
+  margin-right: 90px;
+  font-size:larger;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+li a{
+  text-decoration: none;
+  color:white;
+  
+}
+a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.name{
+  margin-top: 150px;
+  
+  color: white;
+}
+h2{
+  font-size: 40px;
+  margin-left: 400px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name p{
+  margin-left: 400px; 
+  font-size: 20px;
+}
+.content{
+  border: solid;
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 15px;
+  color: white;
+  width: 30%;
+  height: 30%;
+  margin-top: 20%;
+  box-shadow: 5px 3px 20px azure;
+  backdrop-filter: blur(10px);
+  margin-left: auto;
+}
+.content p{
+  text-align: justify;
+  font-size: large;
+  text-indent: 40px;
+  word-spacing: 5px;
+  margin-bottom: 0%;
+
+}

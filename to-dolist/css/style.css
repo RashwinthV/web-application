@@ -1,0 +1,49 @@
+body{
+    margin: 0%;
+    padding: 3%;
+    background-color: white;
+}
+.cont{
+    
+    max-width: 600px;
+    background-color: rgba(216, 220, 237, 0.266);
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(230, 227, 227);
+    border-radius: 20px;
+
+}
+h1{
+    text-align: center;
+
+}
+input{
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+}
+button{
+    background-color: rgb(6, 177, 6);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#todolist{
+    list-style-type: none;
+
+}
+#todolist li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.delete-but{
+    background-color: orange;
+}

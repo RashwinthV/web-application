@@ -1,0 +1,154 @@
+.brand{
+    font-size:150%; 
+    text-align: center;
+
+}
+.navigation-items{
+  word-spacing: 10%;
+}
+body {
+    background: #FFF5EE;
+  }
+   
+  .center {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    font-size: 1rem;
+  }
+
+  .btn-1
+  {
+    width: 132px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+ 
+ 
+  .btn-1 a
+   {
+    text-decoration: none;
+    border: 2px solid #010100;
+    padding: 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+  }
+
+  span {
+    position: relative;
+    z-index: 3;
+  }
+
+  .btn-1 a::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -2px;
+    width: calc(100% + 6px);
+    height: calc(100% - 10px);
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform: scaleY(1);
+  }
+
+  .btn-1 a:hover::before {
+    transform: scaleY(0);
+  }
+
+  .btn-1 a::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1);
+  }
+
+  .btn-1 a:hover::after {
+    transform: scaleX(0);
+  }
+  .container {
+      display : flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .card {
+      background: white ;
+      height: 460px;
+      width: 270px;
+      margin: 10px;
+      border-radius: 15px;
+  }
+  
+  .card-image{
+      background-color: aqua;
+      height:220px;
+      margin-bottom: 15px;
+      background-size: cover;
+      border-radius: 10px 12px 0 0;
+  }
+  
+  .card-text {
+    grid-area: text;
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .card-text p {
+    color: grey;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  
+  .card-text h2 {
+    margin-top: 0px;
+    font-size: 28px;
+    padding: 10px;
+    
+  }
+  
+    .card-1 {
+      background-image: url("images/request.jpg");
+      background-size: cover;
+  }
+  .card-2 {
+      background-image: url("images/donation.jpg");
+      
+  }
+  
+  .card-3 {
+    background-image: url("images/02.jpg");
+  }
+  
+  .card-text.card3 .date {
+    color: rgb(0, 189, 63);
+  }
+  
+  .card a{
+      background-color: black;
+      color: white;
+      padding: 15px  20px;
+      display: block;
+      text-align: center;
+      margin : 20px 50px;
+      text-decoration: none;
+  }
+  
+  .card:hover{
+      background-color: rgb(62,62,62);
+      color: white;
+      cursor: pointer;
+      transform: scale(1.03);
+      transition: all 0.5 ease ;
+  }

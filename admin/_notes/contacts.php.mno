@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSelectContacts" value="name:consno;datatype:int,name:conname;datatype:string,name:conmobile;datatype:string,name:conemailid;datatype:string,name:consubject;datatype:string,name:conmessage;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSelectNewsAndEvents" value="name:nnesno;datatype:int,name:depsno;datatype:int,name:nnename;datatype:string,name:nnetype;datatype:string,name:nnedate;datatype:date,name:nnedetails;datatype:string,name:nneimage;datatype:string" />
+	<infoitem key="UD_RsSelectDepartment" value="name:depsno;datatype:int,name:depname;datatype:string,name:deptype;datatype:string,name:depdescription;datatype:string" />
+</info>

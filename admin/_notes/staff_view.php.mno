@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSelectStaff" value="name:staffsno;datatype:int,name:staffname;datatype:string,name:staffqualification;datatype:string,name:staffdesignation;datatype:string,name:depsno;datatype:int,name:staffemail;datatype:string,name:staffmobile;datatype:string" />
+	<infoitem key="UD_RsSelectDepartmentName" value="name:depsno;datatype:int,name:depname;datatype:string,name:deptype;datatype:string,name:depdescription;datatype:string" />
+</info>

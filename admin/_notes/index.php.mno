@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSelectTotalDepartments" value="name:depsno;datatype:int,name:depname;datatype:string,name:deptype;datatype:string,name:depdescription;datatype:int" />
+	<infoitem key="UD_RsSelectTotalStaff" value="name:staffsno;datatype:int,name:staffname;datatype:string,name:staffqualification;datatype:string,name:staffdesignation;datatype:string,name:depsno;datatype:int,name:staffemail;datatype:string,name:staffmobile;datatype:string" />
+	<infoitem key="UD_RsSelectTotalNewsAndEvents" value="name:nnesno;datatype:int,name:depsno;datatype:int,name:nnename;datatype:string,name:nnetype;datatype:string,name:nnedate;datatype:date,name:nnedetails;datatype:string,name:nneimage;datatype:string" />
+	<infoitem key="UD_RsSelectTotalPlacement" value="name:plasno;datatype:int,name:pladate;datatype:date,name:plarecname;datatype:string,name:plarectype;datatype:string,name:planoofposts;datatype:int,name:plajobname;datatype:string,name:plaeligibility;datatype:string,name:plaintrprocedure;datatype:string" />
+	<infoitem key="UD_RsSelectElection" value="name:elesno;datatype:int,name:elename;datatype:string,name:eledate;datatype:date,name:elestarttime;datatype:time,name:eleendtime;datatype:time" />
+	<infoitem key="UD_RsSelectCandidate" value="name:cansno;datatype:int,name:elesno;datatype:int,name:sturegno;datatype:string,name:canpost;datatype:string" />
+	<infoitem key="UD_RsSelectStudents" value="name:sturegno;datatype:string,name:stuname;datatype:string,name:stugender;datatype:string,name:studob;datatype:date,name:stucourse;datatype:string,name:stuyear;datatype:string,name:studepartment;datatype:string,name:stupassword;datatype:string,name:stuthumb;datatype:string" />
+	<infoitem key="UD_RsSelectPolling" value="name:pollsno;datatype:int,name:elesno;datatype:int,name:sturegno;datatype:string,name:pollsturegno;datatype:string,name:polldatetime;datatype:timestamp" />
+	<infoitem key="UD_RsSelectTotalPolling" value="name:pollsno;datatype:int,name:elesno;datatype:int,name:sturegno;datatype:string,name:pollsturegno;datatype:string,name:polldatetime;datatype:timestamp" />
+</info>

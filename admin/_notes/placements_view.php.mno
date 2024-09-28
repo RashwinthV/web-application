@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSelectPlacement" value="name:plasno;datatype:int,name:pladate;datatype:date,name:plarecname;datatype:string,name:plarectype;datatype:string,name:planoofposts;datatype:int,name:plajobname;datatype:string,name:plaeligibility;datatype:string,name:plaintrprocedure;datatype:string" />
+</info>

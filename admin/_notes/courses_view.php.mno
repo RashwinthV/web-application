@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSelectCourse" value="name:coursesno;datatype:int,name:coursename;datatype:string,name:coursetype;datatype:string,name:coursedescription;datatype:string,name:depsno;datatype:int,name:coursetotalstudents;datatype:int" />
+	<infoitem key="UD_RsSelectDepartmentName" value="name:depsno;datatype:int,name:depname;datatype:string,name:deptype;datatype:string,name:depdescription;datatype:string" />
+</info>

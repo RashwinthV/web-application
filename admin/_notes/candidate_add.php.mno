@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSelectElection" value="name:elesno;datatype:int,name:elename;datatype:string,name:eledate;datatype:date,name:elestarttime;datatype:time,name:eleendtime;datatype:time" />
+	<infoitem key="UD_RsSelectStudents" value="name:sturegno;datatype:string,name:stuname;datatype:string,name:stugender;datatype:string,name:studob;datatype:date,name:stucourse;datatype:string,name:stuyear;datatype:string,name:studepartment;datatype:string,name:stupassword;datatype:string,name:stuthumb;datatype:string" />
+</info>
